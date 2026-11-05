@@ -31,3 +31,9 @@ print("Primera fecha:", datos['daily']['time'][0])
 print("Temperatura media del primer día:", datos['daily']["temperature_2m_mean"][0])
 print("Temperatura máxima del último día:", datos['daily']["temperature_2m_max"][-1])
 # print("Temperatura máxima del último día:", datos['daily']["temperature_2m_max"][-50])
+
+if "temperatura" in datos.keys():
+    print("Está en las claves")
+else:
+    print("No está en las claves")
+    
